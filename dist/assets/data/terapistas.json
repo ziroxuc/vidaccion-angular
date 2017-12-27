@@ -1,0 +1,14 @@
+{
+      "profesionales":[
+        {
+          "nombre":"Ana Laura Parada Terán",
+          "img":"assets/img/fotos_profesionales/ana-laura-parada.jpg",
+          "resena":"Licenciada en Ciencias de la Ocupación y Terapeuta Ocupacional de la Universidad Austral de Chile. Formación en evaluación y tratamiento de integración sensorial y desarrollo psicomotor. Ha desarrollado su experiencia profesional en contexto escolar con niños y niñas con necesidades educativas especiales y actualmente se desempeña como Terapeuta Ocupacional en la unidad de Neuropsiquiatría Infantil del Hospital San Juan de Dios."
+        },
+        {
+          "nombre":"María Paz Salinas Reyes",
+          "img":"assets/img/fotos_profesionales/maria-paz-salinas.jpg",
+          "resena":"Licenciada en Ciencias de la Ocupación y Terapeuta Ocupacional de la Universidad Andrés Bello. Estudios de Magister en Terapia Ocupacional con mención en Salud Física. Formación en evaluación y tratamiento de integración sensorial. Ha desarrollado su experiencia profesional en contexto hospitalario y educacional con niños y niñas con necesidades especiales. Actualmente se desempeña como Terapeuta Ocupacional en la unidad de Rehabilitación del Hospital Exequiel González Cortes, cumpliendo funciones de atención a niños Hospitalizados y formando además parte de los equipos ambulatorios de Neurorehabilitación, Diagnóstico diferencial de niños con Trastorno del espectro autista, equipo de mano, entre otros."
+        }
+      ]
+}
