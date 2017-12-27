@@ -60,8 +60,8 @@ h3 {
 }
 /*----3.a.Horizontal----*/
 .card.horizontal .card-image img {
-	height:100px;
-	width:100px;
+	height:80px;
+	width:200px;
 }
 
 .card.horizontal {

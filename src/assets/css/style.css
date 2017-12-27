@@ -17,7 +17,7 @@ CONTENTS:
 06 Footer
 07 Icons
 08 Buttons
-09 Media queries 
+09 Media queries
 ===========================
 */
 /* Import css */
@@ -91,7 +91,7 @@ a.scrollup {
 a.scrollup:hover,a.scrollup:active,a.scrollup:focus {
 	opacity:1;
 	text-decoration:none;
-	-webkit-transition: all 400ms ease-out 0s;	
+	-webkit-transition: all 400ms ease-out 0s;
 	   -moz-transition: all 400ms ease-out 0s;
 		 -o-transition: all 400ms ease-out 0s;
 		    transition: all 400ms ease-out 0s;
@@ -479,7 +479,7 @@ section.spacer {
 
 .spacer.green,.section.green {
 	background:white;
-	
+
 }
 
 .spacer.green,.section.green h4 {
@@ -497,14 +497,14 @@ section.spacer.bg2 {
 	background: url(../img/bg/bg-2.jpg) 50% 0 no-repeat fixed;
 	width:100%;
 	height:auto;
-	margin:0;	
+	margin:0;
 }
 
 section.spacer.bg3 {
 	background: url(../img/bg/bg-3.jpg) 50% 0 no-repeat fixed;
 	width:100%;
 	height:auto;
-	margin:0;	
+	margin:0;
 }
 
 section.spacer blockquote.large:before {
@@ -748,7 +748,7 @@ section#services p {
 	margin:5px;
 	color: black;
 	font-size: 17px;
-	font-weight: bold;
+
 }
 
 
@@ -779,7 +779,7 @@ section#services ul li{
 }
 section#services a{
 	color:black;
-	
+
 }
 
 
@@ -791,7 +791,7 @@ section#blog {
 
 .home-post {
 	background:#fff;
-	
+
 }
 
 .home-post:hover {
@@ -1309,7 +1309,7 @@ i.icon-white {
 /* =========================================================
 08. Buttons
 ============================================================ */
- 
+
 .btn {
 	color: #fff;
 	text-shadow: none;
@@ -1592,28 +1592,28 @@ i.icon-white {
 		padding-right:0;
 		padding:0;
 	}
-	
+
 	.navbar-inner {
 	 padding-right: 20px;
-	 padding-left: 20px;	
+	 padding-left: 20px;
 	}
-	
+
 	.navbar-inner h1.brand {
 		margin-left:20px;
 	}
-	
+
 	.navbar-inner .btn-navbar {
 		margin:20px 20px 0;
 	}
-	
+
 	.container {
 	 padding-right: 20px;
 	 padding-left: 20px;
-	}	
+	}
 	.navbar-inverse .navbar-inner {
 		padding:0 0 30px;
 	}
-	
+
 	.nav-collapse {
 		text-align:center;
 		width:100%;
@@ -1629,25 +1629,25 @@ i.icon-white {
 	}
 	.navbar-inner {
 	 padding-right: 20px;
-	 padding-left: 20px;	
+	 padding-left: 20px;
 	}
-	
+
 	.navbar-inner h1.brand {
 		margin-left:20px;
 	}
-	
+
 	.navbar-inner .btn-navbar {
 		margin:20px 20px 0;
 	}
-	
+
 	.container {
 	 padding-right: 20px;
 	 padding-left: 20px;
-	}	
+	}
 	.navbar-inverse .navbar-inner {
 		padding:0 20px 30px;
 	}
-	
+
 	.nav-collapse {
 		text-align:center;
 		width:100%;
@@ -1656,7 +1656,7 @@ i.icon-white {
 		width: 25%;
 	}
 }
-    
+
     /* Smaller screens ----------- */
 @media (max-width : 480px) {
 	#header-wrapper {
@@ -1676,7 +1676,7 @@ i.icon-white {
 	}
 
 }
-    
+
     /* Smartphones (portrait and landscape) ----------- */
 @media only screen  and (min-device-width : 320px)  and (max-device-width : 480px) {
 
@@ -1703,10 +1703,10 @@ i.icon-white {
  section#services h2, section#services ul {
  text-align: center;
 }
-		
+
 
 /* team */
-		
+
 #team .team-thumb {
  margin-right: auto;
  margin-left: auto;
@@ -1721,7 +1721,7 @@ i.icon-white {
  margin-left: auto;
  margin-right: auto;
 }
-		
+
 /* Contact Form */
 	#contact-form {
 		overflow: hidden;
@@ -1739,7 +1739,7 @@ i.icon-white {
 .icono-banner-img{
 	width: 14%;
 	margin-top: -20px;
-	
+
 }
 
 
@@ -1750,10 +1750,21 @@ i.icon-white {
 .separador{
 	background-color: #f36f36;
 	width: 100%;
-	height: 7px;
+	height: 30px;
 }
 .separador-verde{
 	background-color: #6b8d00;
 	width: 100%;
-	height: 7px;
+	height: 30px;
 }
+
+.circular_shadow {
+  width: 200px;
+  height: 200px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  background: url(http://www.tublog.com/tuimagen.jpg) no-repeat;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8); }

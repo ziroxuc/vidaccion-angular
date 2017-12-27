@@ -1,0 +1,24 @@
+{
+      "profesionales":[
+        {
+          "nombre":"Dra. Adriana Collao",
+          "img":"assets/img/fotos_profesionales/adriana-collao.jpg",
+          "resena":"Médico Cirujano titulada en Universidad de Chile, Psiquiatra Infantil y de la Adolescencia Universidad de Santiago. Posee experiencia en atención ambulatoria psiquiátrica general de niños y adolescentes, con amplia experiencia tanto en el ámbito público y privado; además de haber sido Docente Becada de Psiquiatría Infanto-Juvenil de la Universidad de Santiago."
+        },
+        {
+          "nombre":"Dra. Adriana Collao",
+          "img":"assets/img/fotos_profesionales/adriana-collao.jpg",
+          "resena":"Médico Cirujano titulada en Universidad de Santiago de Chile, cuenta con especialidad en Psiquiatría Infantil y de la Adolescencia, de la Universidad de Santiago de Chile, CDT Hospital Barros Luco Trudeau, Instituto Psiquiátrico “Dr. Horwitz Barack” y Hospital Exequiel González Cortés.Se ha desempeñado como Psiquiatra con dedicación a la atención ambulatoria de pacientes en el sistema público y privado. Actualmente se desempeña como Psiquiatra infanto juvenil, atendiendo todo tipo de trastornos del ánimo y/o ansiedad, trastornos conductuales, trastorno por déficit atencional e hiperactividad, y Psicopatología infanto-juvenil en general. Cuenta con acreditación de la Superintendencia de Salud de Chile y acreditación CONACEM, además de pertenecer al Colegio Médico de Chile."
+        },
+        {
+          "nombre":"Dra. Romina Aceituno Berrios",
+          "img":"img/image.jpg",
+          "resena":"Médico Cirujano titulada en Universidad de Chile, especialidad en Psiquiatría de adultos Universidad de Chile, Hospital Salvador e Instituto Psiquiátrico Dr. José Horwitz B. Acreditada por CONACEM. Postítulo en terapia conductual dialéctica Universidad de Chile (Hospital Salvador). Amplia experiencia en atención ambulatoria de patología psiquiátrica general, en pacientes adultos y especialmente en adolescentes. Actualmente se desempeña como psiquiatra de adolescentes y adultos en CRS Cordillera Oriente Peñalolén y en Clínica Universidad de Chile Quilín, de la misma comuna."
+        },
+        {
+          "nombre":"Dr. Jorge Monardes Godoy",
+          "img":"assets/img/fotos_profesionales/jorge-monardes.jpg",
+          "resena":"Médico Cirujano titulado en Universidad de Chile. Especialista en Psiquiatría de adultos. Diplomado en Terapia Conductual Dialéctica (DBT), titulado en Universidad de Chile. 2 años de formación en Análisis Existencial (ICAE). Amplia experiencia, en el ámbito público y privado, en el tratamiento de los principales problemas psiquiátricos y de salud mental. Se desempeña como psiquiatra clínico en el Servicio de Urgencias del Instituto Psiquiátrico Dr. José Horwitz Barak."
+        }
+      ]
+}

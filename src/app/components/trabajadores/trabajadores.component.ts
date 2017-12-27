@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { Router,ActivatedRoute } from '@angular/router';
-import { InformacionService } from '../../services/informacion.service';
+import { Router, ActivatedRoute } from '@angular/router';
+import { Http } from '@angular/http';
 
 @Component({
   selector: 'app-trabajadores',
@@ -9,28 +9,37 @@ import { InformacionService } from '../../services/informacion.service';
 })
 export class TrabajadoresComponent {
 
-  parametro:any = null;
-  profesionales:any = {};
+  datosProfesionales: any = [];
+  cargada: boolean = false;
+  profesion: any;
+  profesionales: any = [];
+  url = '';
 
-  constructor(private router: Router,private route: ActivatedRoute,  _is: InformacionService) {
 
-      route.params.subscribe(params => {
-        this.parametro = params['profesional'];
+  constructor(private router: Router, private route: ActivatedRoute, public http: Http) {
+
+    this.route.params.subscribe(params => {
+      this.profesion = params['profesional']; // (+) converts string 'id' to a number
+    });
+    this.url = 'assets/data/' + this.profesion + '.json'
+    this.http.get(this.url)
+      .subscribe(data => {
+        this.datosProfesionales = data.json().profesionales;
+        this.cargada = true;
+
+        console.log(this.datosProfesionales);
+
       });
-
-      console.log(_is.datosProfesionales.profesionales);
-
-  
    }
+}
 
 
-   //getProfesionales(profesion:string){
-       //    for (let item of datosProfesionales) {
-       //   if(item.profesion === prof){
-       //     console.log(item);
-      //    }
-    //  }
-   }
+
+
+
+
+
+
 
 
 
