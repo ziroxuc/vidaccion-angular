@@ -1,0 +1,50 @@
+	<section id="contact" class="section green">
+		<div class="container">
+			<h4>Contactenos</h4>
+			<p>
+				contacto@vidaccion.cl Consistorial 3175 - comuna de Peñalolen Telefono 02-2758 3543
+			</p>
+			<div class="blankdivider30">
+			</div>
+			<div class="row">
+				<div class="span12">
+					<div class="cform" id="contact-form">
+						<div id="sendmessage">Su mensaje ha sido enviado, Gracias!</div>
+						<div id="errormessage"></div>
+						<form action="phpmailer.php" method="post" role="form" class="contactForm">
+							<div class="row">
+								<div class="span6">
+									<div class="field your-name form-group">
+										<input type="text" name="name" class="form-control" id="name" placeholder="Su nombre" data-rule="minlen:4" data-msg="Debe escribir al menos 4 caracteres"
+										/>
+										<div class="validation"></div>
+									</div>
+									<div class="field your-email form-group">
+										<input type="text" class="form-control" name="email" id="email" placeholder="Su Correo" data-rule="email" data-msg="Ingresar un email valido"
+										/>
+										<div class="validation"></div>
+									</div>
+									<div class="field subject form-group">
+										<input type="text" class="form-control" name="subject" id="subject" placeholder="Motivo" data-rule="minlen:4" data-msg="Debe escribir al menos 8 caracteres"
+										/>
+										<div class="validation"></div>
+									</div>
+								</div>
+								<div class="span6">
+									<div class="field message form-group">
+										<textarea class="form-control" name="mensaje" rows="5" data-rule="required" data-msg="Escriba algo para nosotros" placeholder="Mensaje"></textarea>
+										<div class="validation"></div>
+									</div>
+									<input type="hidden" name="phpmailer">
+									<input type="submit" value="Enviar mensaje" class="btn btn-theme pull-left">
+								</div>
+							</div>
+							
+					
+						</form>
+					</div>
+				</div>
+				<!-- ./span12 -->
+			</div>
+		</div>
+	</section>
