@@ -1,0 +1,23 @@
+{
+"profesionales":[
+{
+    "nombre":"juanita",
+    "foto":"ruta/foto",
+    "profesion":"pisicologo",
+    "resena":"textooooooo"
+},
+{
+    "nombre":"juanita",
+    "foto":"ruta/foto",
+    "profesion":"pisicologo",
+    "resena":"textooooooo"
+},
+{
+    "nombre":"juanita",
+    "foto":"ruta/foto",
+    "profesion":"pisicologo",
+    "resena":"textooooooo"
+}
+]
+}
+

@@ -4,7 +4,9 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 //router
 import { APP_ROUTING } from './app.router';
+//services
 
+import { InformacionService } from './services/informacion.service';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -38,7 +40,7 @@ import { TrabajadoresComponent } from './components/trabajadores/trabajadores.co
     HttpModule,
     APP_ROUTING
   ],
-  providers: [],
+  providers: [InformacionService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,21 +1,36 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { Router,ActivatedRoute } from '@angular/router';
+import { InformacionService } from '../../services/informacion.service';
 
 @Component({
   selector: 'app-trabajadores',
   templateUrl: './trabajadores.component.html',
   styles: []
 })
-export class TrabajadoresComponent implements OnInit {
+export class TrabajadoresComponent {
 
-  constructor(private router: Router,private route: ActivatedRoute) {
-        
+  parametro:any = null;
+  profesionales:any = {};
+
+  constructor(private router: Router,private route: ActivatedRoute,  _is: InformacionService) {
+
       route.params.subscribe(params => {
-        console.log(params['profesional']);
+        this.parametro = params['profesional'];
       });
+
+      console.log(_is.datosProfesionales.profesionales);
+
+  
    }
 
-  ngOnInit() {
-  }
 
-}
+   //getProfesionales(profesion:string){
+       //    for (let item of datosProfesionales) {
+       //   if(item.profesion === prof){
+       //     console.log(item);
+      //    }
+    //  }
+   }
+
+
+
