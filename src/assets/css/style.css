@@ -148,6 +148,7 @@ input, button, select, textarea {
 p {
 	line-height: 1.6em;
 	margin: 0 0 10px 0;
+	text-align: center;
 }
 
 blockquote {
@@ -320,6 +321,7 @@ ul#menu-main > li > a {
 	text-transform:uppercase;
 }
 ul#menu-main > li > a:hover {
+	
 	padding: 9px 15px;
 	border-radius: 3px;
 	-webkit-border-radius: 3px;
@@ -446,7 +448,7 @@ header .logo {
 
 
 section.section {
-	padding: 100px 0 80px;
+	padding: 20px 0 80px;
 }
 section.section h4 {
 	text-align: center;
@@ -521,7 +523,7 @@ section.spacer blockquote cite {
 /* === section works === */
 
 #works h4 {
-	margin-bottom:20px;
+	margin-bottom:60px;
 }
 
 #portfolio {
@@ -1758,7 +1760,21 @@ i.icon-white {
 	height: 30px;
 }
 
+.iconos-footer{
+	text-align: center;
+	list-style-type:none;
+}
+.iconos-footer ul{
+	text-align: left;
+	list-style-type:none;
+} 
+.centrar{
+	padding-left: 30%;
+}
+
+
 .circular_shadow {
+	margin-bottom: 20px;
   width: 200px;
   height: 200px;
   border-radius: 150px;
@@ -1768,3 +1784,5 @@ i.icon-white {
   box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8); }
+
+

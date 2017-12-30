@@ -6,21 +6,21 @@ background:#e06d5e;
 }
 
 .navbar .brand a:hover {
-	color:#1BAC91;
+	color:#f36f36;
 }
 
 
 
 ul#menu-main > li > a:hover {
-	color: #1BAC91;
+	color: #6b8d00;
 }
 
 
 ul#menu-main > li > a:focus,ul#menu-main > li > a:active, ul#menu-main > li > a.selected, ul#menu-main li a.selected:active    {
-	color: #1BAC91;
+	color: #6b8d00;
 }
 #header-wrapper h1 span {
-	color:#1BAC91;
+	color:#6b8d00;
 }
 
 #header-wrapper input[type=submit] {

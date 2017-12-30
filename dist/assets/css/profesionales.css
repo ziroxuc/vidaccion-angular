@@ -56,7 +56,8 @@ h3 {
 .card .card-content p {
   margin:0;
   font-size:0.9rem;
-  color: #555555;
+	color: #555555;
+	text-align: justify;
 }
 /*----3.a.Horizontal----*/
 .card.horizontal .card-image img {
@@ -77,10 +78,14 @@ h3 {
   	overflow: visible;
 }
 .card.horizontal .card-image img {
-  	width:150px;
-	height:150px;
+  	width:180px;
+	height:180px;
 	margin-right:20px;
+	border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
 }
+
 .card.horizontal .card-stacked {
   	-webkit-flex-direction: column;
     -ms-flex-direction: column;
